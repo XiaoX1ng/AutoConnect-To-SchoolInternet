@@ -1,4 +1,4 @@
-﻿import requests
+import requests
 import time
 import re
 import configparser
@@ -9,32 +9,32 @@ class login(object):
 
 
     def __init__(self):
-        self.login_url = "http://10.10.10.102:801/eportal/?c=ACSetting&a=Login&protocol=http:&hostname=10.10.10.102&iTermType=1&wlanuserip=10.60.239.40&mac=3c-15-fb-a9-9f-3b&ip=10.60.239.40&enAdvert=0&queryACIP=0&loginMethod=1"
+        self.login_url = "输入在这" # 验证页面网址，F12控制台可找到，以及以下所有内容都在F12控制台中
         self.headers = {
-            'POST': '/eportal/?c=ACSetting&a=Login&protocol=http:&hostname=10.10.10.102&iTermType=1&wlanuserip=10.60.239.40&mac=3c-15-fb-a9-9f-3b&ip=10.60.239.40&enAdvert=0&queryACIP=0&loginMethod=1 HTTP/1.1',
-            'Host': '10.10.10.102:801',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Connection': 'keep-alive',
-            'Content-Length': '170',
-            'Cache - Control': 'max - age = 0',
-            'Origin': 'http: // 10.10.10.102',
-            'Upgrade - Insecure - Requests': '1',
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            'Accept': 'text/html,application/xhtml+xml,application /xml;q = 0.9,image/webp,image/apng,*/*;q = 0.8,application/signed-exchange;v = b3',
-            'Referer': 'http://10.10.10.102/a70.htm?wlanuserip=10.60.239.40&wlanacname=',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
-            'Accept-Encoding': 'gzip, deflate',
-            'Cookie': 'program=0626; vlan=202; ip=10.60.239.40; ISP_select=@liantong; md5_login2=%2C0%2C111902040126@liantong%7Cxx320582; PHPSESSID=cqoupsmm430084duatqmpf6f16'
+            'POST': '输入在这',
+            'Host': '输入在这',
+            'Accept-Language': '输入在这',
+            'Connection': '输入在这',
+            'Content-Length': '输入在这',
+            'Cache - Control': '输入在这',
+            'Origin': '输入在这',
+            'Upgrade - Insecure - Requests': '输入在这',
+            'Content-Type': '输入在这',
+            'Accept': '输入在这',
+            'Referer': '输入在这',
+            'User-Agent': '输入在这',
+            'Accept-Encoding': '输入在这',
+            'Cookie': '输入在这'
         }     # 从F12控制台获取的header
         self.payload = {
-            'DDDDD': ',0,111902040126@liantong',
-            "upass": 'xx320582',
+            'DDDDD': '输入在这',
+            "upass": '输入在这',
             "R1": '0',
             "R2": '0',
             'R3': '0',
             'R6': '0',
             'para': '00',
-            '0MKKey': '123456',
+            '0MKKey': '输入在这',
             'buttonClicked':'',
             'redirect_url':'',
             'err_flag':'',
